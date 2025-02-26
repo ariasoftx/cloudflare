@@ -3,4 +3,4 @@ let app = express()
 app.get("/",(req,res)=>{
     res.send(req.query)
 })
-app.listen(80)
+app.listen(8080)
